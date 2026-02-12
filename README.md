@@ -30,10 +30,23 @@ Demais Pinos-|---Não precisa ligar
 ### Ligações do potenciômetro
 O potenciômetro utilizado não possui pinos específicos 100% limitados, porém é importante que os pinos das extremidades estejam ligados na fonte e no GND, enquanto o pino central esteja ligado à entrada analógica da placa. Portanto, segue o exemplo utilizado:  
   
-**POTENCIÔMETRO**   |---   **NUCLEO**  
-Pino 1--------------|   ---5V  
-Pino 2--------------|   ---PA4  
-Pino 3--------------|   ---GND  
+**POTENCIÔMETRO**   -|---   **NUCLEO**  
+Pino 1---------------|   ---5V  
+Pino 2---------------|   ---PA4  
+Pino 3---------------|   ---GND  
+
+
+
+
+## Parte 2 - Software
+### Software da ESP-01
+O software da ESP-01 foi desenvolvido no Arduino e o código está disponibilizado neste material. Para fazer bom uso do material fornecido, alguns trechos do código foram deixado para ser preenchidos pelo leitor do tutorial, sendo eles: nome do wifi em que a ESP deve se conectar, senha do wifi em que a ESP deve se conectar e token do device do thingsboard que estará explicado mais abaixo como encontrar.
+Em resumo, o código disponibilizado deve ser carregado na ESP-01 através de módulo disponível no LSM. Este código por si só permite que a ESP-01 se conecte ao wifi desejado e ao device do thingsboard. Para validar a conexão, é possível abrir o monitor serial do Arduino com a ESP-01 ainda ligada ao computador via USB, pressionar o reset da ESP e verificar se a conexão wifi está ocorrendo corretamente.
+
+### Software da ESP-01
+O software da Nucleo também foi disponibilizado como exemplo. Neste arquivo, ao entrar em src/main.c
+
+
 
 
 ## Parte 3 - Configuração no ThingsBoard
