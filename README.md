@@ -23,13 +23,14 @@ No menu lateral, clique em **Devices** para visualizar os dispositivos cadastrad
 ---
 ### Adicionar novo dispositivo
 
+![Passo 2](imagens/passo2.png)
 Clique no botão **+ Add device** no canto superior direito.
 Na janela que abrir:
 - Preencha o campo **Name** (ex: ESP01)
 - Mantenha o **Device profile** como `default`
 - Clique em **Add**
+![Passo 3](imagens/passo3.png)
 
-![Passo 2](imagens/passo2.png)
 
 ---
 
@@ -39,7 +40,6 @@ Após criar o dispositivo, clique sobre o nome dele (ESP01).
 Na tela de detalhes, clique em: **Copy access token**
 Esse **token** será utilizado no código do ESP-01 para autenticação na plataforma.
 
-![Passo 3](imagens/passo3.png)
 
 ---
 ### Confirmar dispositivo ativo
