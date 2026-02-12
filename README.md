@@ -15,7 +15,7 @@ Repositório desenvolvido por Maria Clara Nadim Martiniano e Ismael Ritchard da 
 
 
 
-## Parte 1 - Montagem física
+## Parte 1 - Montagem física:
 ### Ligações da ESP-01
 Para a montagem da ESP-01 na F401RE é importante que o RX da ESP esteja ligado no TX da NUCLEO, enquanto que o TX da ESP esteja no RX da NUCLEO. A montagem a seguir é o exemplo utilizado, mas pode ter variações.  
   
