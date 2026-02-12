@@ -88,5 +88,5 @@ Isso indica que o dispositivo está cadastrado corretamente e pronto para recebe
 
 O **Access Token** copiado no Passo 3 deve ser inserido no código do ESP-01:
 
-##Montagem no proteus
+## Montagem no proteus
 ![Passo5](imagens/passo5.png)
