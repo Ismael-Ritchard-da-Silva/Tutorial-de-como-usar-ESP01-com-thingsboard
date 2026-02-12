@@ -17,21 +17,21 @@ Repositório desenvolvido por Maria Clara Nadim Martiniano e Ismael Ritchard da 
 
 ## Parte 1 - Montagem física
 ### Ligações da ESP-01
-Para a montagem da ESP-01 na F401RE é importante que o RX da ESP esteja ligado no TX da NUCLEO, enquanto que o TX da ESP esteja no RX da NUCLEO. A montagem a seguir é o exemplo utilizado, mas pode ter variações.
-**ESP-01**   |   **NUCLEO**
-RX           |   TX (Usado no exemplo: PA9)
-TX           |   RX (Usado no exemplo: PA10)
-VCC          |   3.3V
-GND          |   GND
-CH_PD        |   3.3V
-Demais Pinos |   Não precisa ligar
+Para a montagem da ESP-01 na F401RE é importante que o RX da ESP esteja ligado no TX da NUCLEO, enquanto que o TX da ESP esteja no RX da NUCLEO. A montagem a seguir é o exemplo utilizado, mas pode ter variações.  
+**ESP-01**   |   **NUCLEO**  
+RX           |   TX (Usado no exemplo: PA9)  
+TX           |   RX (Usado no exemplo: PA10)  
+VCC          |   3.3V  
+GND          |   GND  
+CH_PD        |   3.3V  
+Demais Pinos |   Não precisa ligar  
 
 ### Ligações do potenciômetro
-O potenciômetro utilizado não possui pinos específicos 100% limitados, porém é importante que os pinos das extremidades estejam ligados na fonte e no GND, enquanto o pino central esteja ligado à entrada analógica da placa. Portanto, segue o exemplo utilizado:
-**POTENCIÔMETRO**   |   **NUCLEO**
-Pino 1              |   5V
-Pino 2              |   PA4
-Pino 3              |   GND
+O potenciômetro utilizado não possui pinos específicos 100% limitados, porém é importante que os pinos das extremidades estejam ligados na fonte e no GND, enquanto o pino central esteja ligado à entrada analógica da placa. Portanto, segue o exemplo utilizado:  
+**POTENCIÔMETRO**   |   **NUCLEO**  
+Pino 1              |   5V  
+Pino 2              |   PA4  
+Pino 3              |   GND  
 
 
 ## Parte 3 - Configuração no ThingsBoard
